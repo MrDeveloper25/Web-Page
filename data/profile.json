@@ -1,0 +1,37 @@
+{
+  "name": "MrDev25",
+
+  "profilePictureUrl": "images/pictures/SAID.jpeg",
+  "resumePdfUrl": "",
+
+  "statusCircleVisible": true,
+  "statusCircleVariant": "available",
+  "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+  "locales": {
+    "en": {
+      "localized_name": "MrDev25",
+      "localized_name_stylized": " [[MrDev {{25}}]]",
+      "status_message_available_for_freelance": "Available for freelance!",
+      "roles": ["Backend Developer", "Frontend Developer", "UX Designer"]
+    },
+    "es": {
+      "status_message_available_for_freelance": "¡Disponible para freelance!",
+      "roles": [
+        "Desarrollador Backend",
+        "Desarrollador Frontend",
+        "Diseñador UX"
+      ]
+    },
+    "fr": {
+      "status_message_available_for_freelance": "Disponible pour freelance !",
+      "roles": ["Développeur Backend", "Développeur Frontend", "Designer UX"]
+    },
+    "ko": {
+      "localized_name": "미스터데브 이십오",
+      "localized_name_stylized": "{{미스터데브}}이십오",
+      "status_message_available_for_freelance": "프리랜스 가능합니다!",
+      "roles": ["백엔드 개발자", "프론트엔드 개발자", "UX 디자이너"]
+    }
+  }
+}

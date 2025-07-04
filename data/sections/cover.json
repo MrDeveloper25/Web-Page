@@ -1,0 +1,329 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Welcome!",
+        "title_short_nav": "About me",
+        "title_long_prefix": "Hello...",
+        "title_long": "I'm {{MrDev25!}}"
+      },
+      "es": {
+        "title_short": "¡Saludos!",
+        "title_short_nav": "Sobre mí",
+        "title_long_prefix": "Hola...",
+        "title_long": "Soy {{MrDev25!}}"
+      },
+      "fr": {
+        "title_short": "Salut !",
+        "title_short_nav": "À propos",
+        "title_long_prefix": "Salut...",
+        "title_long": "Je suis {{MrDev25!}}"
+      },
+      "ko": {
+        "title_short": "환영합니다!",
+        "title_short_nav": "소개",
+        "title_long_prefix": "안녕하세요...",
+        "title_long": "저는 {{미스터데브  이십오}}입니다!"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleInlineList",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "display_as_list_if_width_is_lower_than": 380
+      },
+      "items": [
+        {
+          "id": 1,
+          "label": "Guadalajara - MX",
+          "link": { "href": "", "tooltipString": "" },
+          "faIcon": "fa-regular fa-address-book"
+        },
+        {
+          "id": 2,
+          "label": "said250604@gmail.com",
+          "link": {
+            "href": "mailto:said250604@gmail.com",
+            "tooltipString": "email_me"
+          },
+          "faIcon": "fa-regular fa-envelope"
+        },
+        {
+          "id": 3,
+          "label": "@MrDeveloper25",
+          "link": {
+            "href": "https://github.com/MrDeveloper25",
+            "tooltipString": "see_on_github"
+          },
+          "faIcon": "fa-brands fa-github"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleText",
+      "locales": {
+        "en": { "title": "{{A little bit}} about me..." },
+        "es": { "title": "{{Un poco}} sobre mí..." },
+        "fr": { "title": "{{Un peu}} à propos de moi..." },
+        "ko": { "title": "저에 {{대해 조금}}..." }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/code.svg",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "text": "<p>I’m a {{software}} developer and a student of [[Computer Engineering]], specializing in frameworks such as [[React]] and [[Flutter]]. I also have hands-on experience with development environments including Dart, C, C++, Go, Python, JavaScript, HTML, and CSS.</p><p>This diverse background allows me to adapt to a wide range of project needs, whether building custom applications, websites, or scalable services. My goal is to create effective solutions for your business and open new opportunities.</p><p>I look forward to collaborating [[with you!]]</p>"
+            },
+            "es": {
+              "text": "<p>Soy un desarrollador de {{software}} estudiante de [[Ingeniería en Computación]], especializado en frameworks como [[React]] y [[Flutter]]. También tengo experiencia práctica en entornos de desarrollo como Dart, C, C++, Go, Python, JavaScript, HTML y CSS.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos, ya sea construyendo aplicaciones personalizadas, páginas web o servicios escalables. Mi objetivo es crear soluciones efectivas para tu negocio y abrir nuevas oportunidades.</p><p>¡Espero con interés colaborar [[contigo!]]</p>"
+            },
+            "fr": {
+              "text": "<p>Je suis développeur {{logiciel}} et étudiant en [[ingénierie informatique]], spécialisé dans des frameworks tels que [[React]] et [[Flutter]]. J’ai également une expérience pratique dans des environnements de développement comme Dart, C, C++, Go, Python, JavaScript, HTML et CSS.</p><p>Ce parcours varié me permet de m’adapter à une large gamme de besoins de projets, que ce soit la création d’applications personnalisées, de sites web ou de services évolutifs. Mon objectif est de créer des solutions efficaces pour votre entreprise et d’ouvrir de nouvelles opportunités.</p><p>Je suis impatient de collaborer [[avec vous !]]</p>"
+            },
+            "ko": {
+              "text": "<p>저는 {{소프트웨어}} 개발자이며 [[컴퓨터 공학]]을 전공하는 학생으로, [[React]]와 [[Flutter]] 같은 프레임워크를 전문으로 합니다. 또한 Dart, C, C++, Go, Python, JavaScript, HTML 및 CSS 개발 환경에서 실무 경험이 있습니다.</p><p>이 다양한 경험은 맞춤형 애플리케이션, 웹사이트 또는 확장 가능한 서비스를 구축하는 등 다양한 프로젝트 요구에 적응할 수 있게 해줍니다. 저는 귀하의 비즈니스를 위한 효과적인 솔루션을 만들고 새로운 기회를 창출하는 것을 목표로 합니다.</p><p>[[함께 일하게 되길 기대합니다!]]</p>"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "component": "ArticleTestimonials",
+      "locales": {
+        "en": { "title": "Collaborators {{testimonials}}" },
+        "es": { "title": "Testimonios de {{colaboradores}}" },
+        "fr": { "title": "Témoignages de {{collaborateurs}}" },
+        "ko": { "title": "{{협력자들의}} 증언" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "label": "José Eduardo Ramos Silva",
+          "link": {
+            "href": "https://www.linkedin.com/in/jos%C3%A9-eduardo-ramos-silva-163684230/",
+            "tooltipString": "open_website"
+          },
+          "img": "images/pictures/testimonial-person-male-2.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Senior Software Engineer | Coding Standards | Backend | AWS [[@Global Logic]]",
+              "text": "José Eduardo Ramos Silva highlights that [[Said]] is very well-prepared, with solid knowledge and professionalism that make him reliable and capable of facing complex challenges."
+            },
+            "es": {
+              "title": "Ingeniero Senior de Software | Estándares de Código | Backend | AWS [[@Global Logic]]",
+              "text": "José Eduardo Ramos Silva destaca que [[Said]] está muy bien preparado, con conocimientos sólidos y profesionalismo que lo hacen confiable y capaz de enfrentar desafíos complejos."
+            },
+            "fr": {
+              "title": "Ingénieur Logiciel Senior | Normes de Codage | Backend | AWS [[@Global Logic]]",
+              "text": "José Eduardo Ramos Silva souligne que [[Said]] est très bien préparé, avec des connaissances solides et un professionnalisme qui le rendent fiable et capable de relever des défis complexes."
+            },
+            "ko": {
+              "title": "시니어 소프트웨어 엔지니어 | 코딩 표준 | 백엔드 | AWS [[@Global Logic]]",
+              "text": "José Eduardo Ramos Silva는 [[Said]]가 탄탄한 지식과 전문성을 바탕으로 매우 잘 준비되어 있으며, 복잡한 도전 과제도 신뢰할 수 있고 잘 해낼 수 있다고 강조합니다."
+            }
+          }
+        },
+        {
+          "id": 2,
+          "label": "Nicolas Tadeo Caceres Panuco",
+          "link": {
+            "href": "https://github.com/Nickgaming8889",
+            "tooltipString": "open_website"
+          },
+          "img": "https://lh3.googleusercontent.com/a-/ALV-UjX8LCBWQLQcanMR4v90JToQW4-4E6xEDND1-vKd9UXzFMGTrTCd=s88-p-k-rw-no",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Student at [[University of Guadalajara]]",
+              "text": "Working with Said has been an exceptional experience. His [[technical ability and collaborative spirit]] have consistently driven our team forward and inspired us to reach new heights."
+            },
+            "es": {
+              "title": "Estudiante en la [[Universidad de Guadalajara]]",
+              "text": "Trabajar con Said ha sido una experiencia excepcional. Su [[habilidad técnica y espíritu colaborativo]] siempre impulsaron a nuestro equipo y nos inspiraron a superarnos."
+            },
+            "fr": {
+              "title": "Étudiant à l'[[Université de Guadalajara]]",
+              "text": "Travailler avec Said a été une expérience remarquable. Sa [[compétence technique et son esprit d'équipe]] ont constamment fait progresser notre équipe et nous ont motivés à nous dépasser."
+            },
+            "ko": {
+              "title": "[[과달라하라 대학교]] 학생",
+              "text": "Said와 함께 일한 것은 훌륭한 경험이었습니다. 그의 [[기술적 능력과 협력적인 태도]]는 팀을 지속적으로 발전시키고 새로운 목표를 향해 나아가게 했습니다."
+            }
+          }
+        },
+        {
+          "id": 3,
+          "label": "Jose Giovani Calderon Rodriguez",
+          "link": {
+            "href": "https://giodigitalmx.com/",
+            "tooltipString": "open_website"
+          },
+          "img": "images/pictures/josegiovanni.jpg",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Founder of [[GioDigital]]",
+              "text": "I recognize Said’s [[strong technical skills]] and dedication. His ability to learn quickly and solve problems is impressive."
+            },
+            "es": {
+              "title": "Fundador de [[GioDigital]]",
+              "text": "Reconozco las [[fuertes habilidades técnicas]] y la dedicación de Said. Su capacidad para aprender rápido y resolver problemas es impresionante."
+            },
+            "fr": {
+              "title": "Fondateur de [[GioDigital]]",
+              "text": "Je reconnais les [[solides compétences techniques]] et l’engagement de Said. Sa capacité d’apprentissage rapide et de résolution de problèmes est impressionnante."
+            },
+            "ko": {
+              "title": "[[GioDigital]] 창립자",
+              "text": "Said의 [[강한 기술력]]과 헌신을 인정합니다. 그의 빠른 학습 능력과 문제 해결 능력은 인상적입니다."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "component": "ArticleInfoList",
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "locales": {
+        "en": { "title": "Personal {{interests}}" },
+        "es": { "title": "Intereses {{personales}}" },
+        "fr": { "title": "Intérêts {{personnels}} " },
+        "ko": { "title": "개인 {{관심사}}" }
+      },
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-solid fa-video",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "{{video}} editing",
+              "text": "Learning to use tools to enhance my videos."
+            },
+            "es": {
+              "title": "Edición de {{video}}",
+              "text": "Aprendiendo a usar herramientas para mejorar mis videos."
+            },
+            "fr": {
+              "title": "Édition {{vidéo}}",
+              "text": "Apprendre à utiliser des outils pour améliorer mes vidéos."
+            },
+            "ko": {
+              "title": "{{비디오}} 편집",
+              "text": "비디오 개선을 위한 도구 사용 방법 배우기"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "faIcon": "fa-solid fa-chart-line",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "{{Investing}} & Finance",
+              "text": "Learning the basics of stocks and personal finance."
+            },
+            "es": {
+              "title": "{{Inversión}} y Finanzas",
+              "text": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
+            },
+            "fr": {
+              "title": "{{Investissement}} & Finance",
+              "text": "Apprendre les bases des actions et des finances personnelles."
+            },
+            "ko": {
+              "title": "{{투자}} 및 재정 관리",
+              "text": "주식과 개인 재정의 기초 배우기."
+            }
+          }
+        },
+        {
+          "id": 3,
+          "faIcon": "fa-solid fa-window-restore",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "{{UX}} design",
+              "text": "Studying user experience principles."
+            },
+            "es": {
+              "title": "Diseño {{UX}}",
+              "text": "Estudiando los principios de la experiencia del usuario."
+            },
+            "fr": {
+              "title": "Conception {{UX}}",
+              "text": "Étudier les principes de l'expérience utilisateur."
+            },
+            "ko": {
+              "title": "{{UX}} 디자인",
+              "text": "사용자 경험 원칙을 공부하기."
+            }
+          }
+        },
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-solid fa-camera-retro",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "{{Design}} & Photoshop",
+              "text": "Enhancing photos through creative editing techniques."
+            },
+            "es": {
+              "title": "{{Diseño}} y Photoshop",
+              "text": "Mejorando fotos a través de técnicas creativas de edición."
+            },
+            "fr": {
+              "title": "{{Conception}} & Photoshop",
+              "text": "Améliorer des photos avec des techniques de montage créatives."
+            },
+            "ko": {
+              "title": "{{설계}} 및 포토샵",
+              "text": "창의적인 편집 기술을 통해 사진을 향상시키기."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

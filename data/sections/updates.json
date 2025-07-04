@@ -1,0 +1,277 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Life recently",
+        "title_short_nav": "Updates",
+        "title_long_prefix": "Take a look at my",
+        "title_long": "Recent {{Updates}}"
+      },
+      "es": {
+        "title_short": "Vida Reciente",
+        "title_short_nav": "Actualizaciones",
+        "title_long_prefix": "Consulta mis",
+        "title_long": "Actualizaciones {{Recientes}}"
+      },
+      "fr": {
+        "title_short": "Vie Récente",
+        "title_short_nav": "Mises à Jour",
+        "title_long_prefix": "Découvrez mes",
+        "title_long": "Dernières {{Mises à Jour}}"
+      },
+      "ko": {
+        "title_short": "최근의 삶",
+        "title_short_nav": "업데이트",
+        "title_long_prefix": "내 최근",
+        "title_long": "{{업데이트}}를 확인해 보세요"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleFacts",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": null,
+          "faIcon": "fa-solid fa-tablet-screen-button",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "00",
+              "text": "Apps Published"
+            },
+            "es": {
+              "text": "Aplicaciones Publicadas"
+            },
+            "fr": {
+              "text": "Applications Publiées"
+            },
+            "ko": {
+              "text": "출시된 앱"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": null,
+          "faIcon": "fa-solid fa-star",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "01+",
+              "text": "Stars on GitHub"
+            },
+            "es": {
+              "text": "Estrellas en GitHub"
+            },
+            "fr": {
+              "text": "Étoiles sur GitHub"
+            },
+            "ko": {
+              "text": "GitHub의 별"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": null,
+          "faIcon": "fa-solid fa-globe",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "01",
+              "text": "Countries visited"
+            },
+            "es": {
+              "text": "Países Visitados"
+            },
+            "fr": {
+              "text": "Pays Visités"
+            },
+            "ko": {
+              "text": "방문한 국가"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "img": null,
+          "faIcon": "fa-solid fa-diagram-project",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "01",
+              "text": "Open-source projects"
+            },
+            "es": {
+              "text": "Proyectos de Código Abierto"
+            },
+            "fr": {
+              "text": "Projets Open-source"
+            },
+            "ko": {
+              "text": "오픈 소스 프로젝트"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "img": null,
+          "faIcon": "fa-solid fa-coffee",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "20,000",
+              "text": "Coffees consumed"
+            },
+            "es": {
+              "text": "Cafés Consumidos"
+            },
+            "fr": {
+              "text": "Cafés Consommés"
+            },
+            "ko": {
+              "text": "소비된 커피"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "img": null,
+          "faIcon": "fa-solid fa-laptop-code",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "50,000+",
+              "text": "Lines of code"
+            },
+            "es": {
+              "text": "Líneas de código"
+            },
+            "fr": {
+              "text": "Lignes de code"
+            },
+            "ko": {
+              "text": "코드 라인 수"
+            }
+          }
+        },
+        {
+          "id": 7,
+          "img": null,
+          "faIcon": "fa-solid fa-heart",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Infinite",
+              "text": "Passion for learning"
+            },
+            "es": {
+              "title": "Infinita",
+              "text": "Pasión por Aprender"
+            },
+            "fr": {
+              "title": "Infinie",
+              "text": "Passion d'apprendre"
+            },
+            "ko": {
+              "title": "무한대",
+              "text": "배움에 대한 열정"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleThread",
+      "locales": {
+        "en": { "title": "Quick {{Facts}}" },
+        "es": { "title": "Feed de {{Noticias}}" },
+        "fr": { "title": "Fil d'{{Actualités}}" },
+        "ko": { "title": "{{뉴스}} 피드" }
+      },
+      "settings": {
+        "max_rows_collapse_threshold": 3,
+        "order_items_by": "dateStart",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "date": { "year": 2025, "month": 7 },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Launched my {{personal website!}}",
+              "province": "Guadalajara",
+              "country": "MX",
+              "institution": "",
+              "text": "In this space, I'll compile the work I'll be doing throughout my career. This way, I'll ensure I [[meet the high standards of software development]], working on projects with significant social impact and high scalability.",
+              "list": [
+                "Portfolio showcasing my projects and contributions",
+                "Blog with articles on technology, coding, and personal experiences",
+                "Contact form for inquiries and collaborations",
+                "Links to my social media profiles and GitHub"
+              ]
+            },
+            "es": {
+              "title": "¡Lanzamiento de mi {{sitio web personal!}}",
+              "province": "Guadalajara",
+              "country": "MX",
+              "institution": "",
+              "text": "En este espacio, recopilaré el trabajo que realizaré a lo largo de mi carrera. De esta manera, me aseguraré de [[cumplir con los altos estándares del desarrollo de software]], trabajando en proyectos de gran impacto social y alta escalabilidad.",
+
+              "list": [
+                "Portafolio que muestra mis proyectos y contribuciones",
+                "Blog con artículos sobre tecnología, codificación y experiencias personales",
+                "Formulario de contacto para consultas y colaboraciones",
+                "Enlaces a mis perfiles en redes sociales y GitHub"
+              ]
+            },
+            "fr": {
+              "title": "Lancement de mon {{site web personnel!}}",
+              "province": "Guadalajara",
+              "country": "MX",
+              "institution": "",
+              "text": "Dans cet espace, je compilerai le travail que je réaliserai tout au long de ma carrière. Ainsi, je m'assurerai de [[répondre aux normes élevées du développement logiciel]], en travaillant sur des projets à fort impact social et à forte évolutivité.",
+              "list": [
+                "Portfolio présentant mes projets et contributions",
+                "Blog avec des articles sur la technologie, la programmation et mes expériences personnelles",
+                "Formulaire de contact pour les demandes et collaborations",
+                "Liens vers mes profils sur les réseaux sociaux et GitHub"
+              ]
+            },
+            "ko": {
+              "title": "{{개인 웹사이트!}} 출시",
+              "province": "과달라하라",
+              "country": "멕시코",
+              "institution": "",
+              "text": "이 공간에서는 제 경력 전반에 걸쳐 진행해 온 작업들을 정리할 것입니다. 이를 통해 높은 소프트웨어 개발 기준을 충족하고, 사회적 영향력이 크고 확장성이 뛰어난 프로젝트를 진행할 수 있도록 노력할 것입니다.",
+              "list": [
+                "프로젝트와 기여를 보여주는 포트폴리오",
+                "기술, 코딩 및 개인 경험에 관한 블로그",
+                "문의 및 협업을 위한 연락처 양식",
+                "소셜 미디어 프로필 및 GitHub 링크"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

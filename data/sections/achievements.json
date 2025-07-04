@@ -1,0 +1,245 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Awards",
+        "title_short_nav": "Achievements",
+        "title_long_prefix": "Here are my",
+        "title_long": "Career {{Achievements}}"
+      },
+      "es": {
+        "title_short": "Logros",
+        "title_short_nav": "Logros",
+        "title_long_prefix": "Aquí están mis",
+        "title_long": "{{Logros}} Profesionales"
+      },
+      "fr": {
+        "title_short": "Réalis",
+        "title_short_nav": "Réalisations",
+        "title_long_prefix": "Voici",
+        "title_long": "Mes {{Réalisations}}"
+      },
+      "ko": {
+        "title_short": "경력 성과",
+        "title_short_nav": "경력 성과",
+        "title_long_prefix": "다음은",
+        "title_long": "{{경력 성과}}입니다"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleCards",
+      "locales": {
+        "en": { "title": "Certifications" },
+        "es": { "title": "Certificaciones" },
+        "fr": { "title": "Certifications" },
+        "ko": { "title": "인증서" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/OracleCloud.png",
+          "faIcon": "fa-solid fa-life-ring",
+          "faIconColors": { "bg": "#326CE5", "fill": "#EEE" },
+          "date": { "year": 2024, "month": 4 },
+          "link": {
+            "href": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=7D0DD019014452852498D029AD6844860719B9F5A980B85C49C2DF17A5A48103",
+            "tooltipString": "see_certification"
+          },
+          "locales": {
+            "en": {
+              "title": "{{Oracle Cloud}} Infrastructure 2023 AI Certified Foundations Associate",
+              "text": "Use of artificial intelligence services in Oracle Cloud (OCI)"
+            },
+            "es": {
+              "text": "Uso de servicios de inteligencia artificial en Oracle Cloud (OCI)"
+            },
+            "fr": {
+              "text": "Utilisation des services d’intelligence artificielle dans Oracle Cloud (OCI)"
+            },
+            "ko": {
+              "text": "Oracle Cloud(OCI)에서 인공지능 서비스를 활용"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "img": "images/pictures/OracleCloud.png",
+          "faIcon": "fa-brands fa-aws",
+          "faIconColors": { "bg": "#FFD700", "fill": "#111" },
+          "date": { "year": 2024, "month": 2 },
+          "link": {
+            "href": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=FD7397EE736D1B5039DE1D15E744ED8B5CE328944DA89A8F476AC916DB2E4C1D",
+            "tooltipString": "see_certification"
+          },
+          "locales": {
+            "en": {
+              "title": "{{Oracle Cloud}} Infrastructure 2023 Certified Foundations Associate",
+              "text": "Demonstrated foundational knowledge of Oracle Cloud Infrastructure (OCI) public cloud services."
+            },
+            "es": {
+              "text": "Conocimientos fundamentales de servicios de nube pública ofrecidos por Oracle Cloud Infrastructure (OCI)"
+            },
+            "fr": {
+              "text": "Connaissances de base des services cloud publics d’Oracle Cloud Infrastructure (OCI)."
+            },
+            "ko": {
+              "text": "Oracle Cloud Infrastructure (OCI)의 퍼블릭 클라우드 서비스에 대한 기본 지식 보유."
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "img": "images/pictures/samsung.jpg",
+          "faIcon": "fa-brands fa-java",
+          "faIconColors": { "bg": "#007396", "fill": "#EEE" },
+          "date": { "year": 2025, "month": 5 },
+          "link": {
+            "href": "https://media.licdn.com/dms/image/v2/D4E22AQFYCQH-J84tdg/feedshare-shrink_2048_1536/B4EZc.TEuaHgA4-/0/1749096877674?e=1752105600&v=beta&t=4RUJhqE9Nh_ky9SjKGD6Tx_ddTaYBdI_8qs9v0nTrUo",
+            "tooltipString": "see_certification"
+          },
+          "locales": {
+            "en": {
+              "title": "{{Samsung}} Innovation Campus 2024",
+              "text": "Artificial Intelligence and Leadership"
+            },
+            "es": {
+              "text": "Inteligencia Artificial y Liderazgo"
+            },
+            "fr": {
+              "text": "Intelligence Artificielle et Leadership"
+            },
+            "ko": {
+              "text": "인공지능 및 리더십"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleThread",
+      "locales": {
+        "en": { "title": "Awards" },
+        "es": { "title": "Premios" },
+        "fr": { "title": "Récompenses" },
+        "ko": { "title": "수상 내역" }
+      },
+      "settings": {
+        "max_rows_collapse_threshold": 4,
+        "order_items_by": "date",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "date": { "year": 2025, "month": 5 },
+          "preview": {
+            "links": [
+              {
+                "href": "https://news.samsung.com/mx/samsung-innovation-campus-concluye-con-exito-su-edicion-2024",
+                "tooltipString": "open_website",
+                "faIcon": "fa-brands fa-medium"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/said-1.jpeg",
+              "images/pictures/said-2.jpg",
+              "images/pictures/said-3.jpg"
+            ],
+            "screenshotsAspectRatio": "1:1",
+            "youtubeVideo": "https://www.youtube.com/watch?v=ijU_Zf2DmFk"
+          },
+          "locales": {
+            "en": {
+              "title": "{{Samsung Innovation Campus}} 2024 Edition – Mexico City",
+              "province": "Mexico City",
+              "country": "Mexico",
+              "institution": "Samsung Mexico & UDEM",
+              "text": "Participated in the Samsung Innovation Campus held in Mexico City, organized by Samsung Mexico and UDEM. My dedication throughout the program was officially recognized. I was invited as a special guest to the Tech Innovation Summit, where I gave a brief talk and presented my software project to fellow students and industry professionals. The project aimed to improve data analysis workflows and included the following key features:",
+              "list": [
+                "Real-time data processing",
+                "User-friendly interface that reduced training time",
+                "Integration with data visualization platforms"
+              ],
+              "tags": [
+                "Samsung Innovation Campus",
+                "Guest Speaker",
+                "Project Presentation",
+                "Software Development",
+                "UDEM"
+              ]
+            },
+            "es": {
+              "title": "{{Samsung Innovation Campus}} Edición 2024 en CDMX",
+              "province": "Ciudad de México",
+              "country": "México",
+              "institution": "Samsung México y UDEM",
+              "text": "Participé en el Samsung Innovation Campus realizado en Ciudad de México, organizado por Samsung México y la UDEM. Se reconoció oficialmente mi dedicación a lo largo del programa. Fui invitado como invitado especial a la Cumbre de Innovación Tecnológica, donde ofrecí una breve conferencia y presenté mi proyecto de software ante estudiantes y profesionales del sector. El proyecto buscaba mejorar los flujos de análisis de datos y contaba con las siguientes características clave:",
+              "list": [
+                "Procesamiento de datos en tiempo real",
+                "Interfaz intuitiva que redujo el tiempo de capacitación",
+                "Integración con plataformas de visualización de datos"
+              ],
+              "tags": [
+                "Samsung Innovation Campus",
+                "Conferencista Invitado",
+                "Presentación de Proyecto",
+                "Desarrollo de Software",
+                "UDEM"
+              ]
+            },
+            "fr": {
+              "title": "{{Samsung Innovation Campus}} – Édition 2024 à Mexico",
+              "province": "Mexico",
+              "country": "Mexique",
+              "institution": "Samsung Mexique et UDEM",
+              "text": "J'ai participé au Samsung Innovation Campus organisé à Mexico par Samsung Mexique et l'UDEM. Mon engagement tout au long du programme a été officiellement reconnu. J'ai été invité en tant qu'invité spécial au Sommet de l'Innovation Technologique, où j'ai donné une brève conférence et présenté mon projet logiciel devant des étudiants et des professionnels du secteur. Le projet visait à améliorer les processus d’analyse de données, avec les caractéristiques suivantes :",
+              "list": [
+                "Traitement des données en temps réel",
+                "Interface conviviale réduisant le temps de formation",
+                "Intégration avec des plateformes de visualisation de données"
+              ],
+              "tags": [
+                "Samsung Innovation Campus",
+                "Intervenant Invité",
+                "Présentation de Projet",
+                "Développement Logiciel",
+                "UDEM"
+              ]
+            },
+            "ko": {
+              "title": "{{Samsung Innovation Campus}} 2024년 CDMX 에디션",
+              "province": "멕시코시티",
+              "country": "멕시코",
+              "institution": "삼성 멕시코 & UDEM",
+              "text": "삼성 멕시코와 UDEM이 공동 주최한 멕시코시티 Samsung Innovation Campus 2024 에디션에 참가하였으며, 프로그램 전반에 걸친 헌신이 공식적으로 인정받았습니다. 기술 혁신 정상 회담에 특별 게스트로 초청되어 짧은 발표를 통해 프로젝트를 학생들과 업계 전문가들 앞에서 소개했습니다. 이 소프트웨어 프로젝트는 데이터 분석 프로세스 개선을 목표로 하였으며, 주요 기능은 다음과 같습니다:",
+              "list": [
+                "실시간 데이터 처리 기능",
+                "교육 시간을 단축시키는 사용자 친화적 인터페이스",
+                "데이터 시각화 플랫폼과의 통합"
+              ],
+              "tags": [
+                "삼성 이노베이션 캠퍼스",
+                "초청 발표자",
+                "프로젝트 발표",
+                "소프트웨어 개발",
+                "UDEM"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

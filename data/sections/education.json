@@ -1,0 +1,90 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Education",
+        "title_short_nav": "Education",
+        "title_long_prefix": "This is my",
+        "title_long": "{{Education}} Background"
+      },
+      "es": {
+        "title_short": "Educación",
+        "title_short_nav": "Educación",
+        "title_long_prefix": "Esta es mi",
+        "title_long": "{{Formación}} Educativa"
+      },
+      "fr": {
+        "title_short": "Éducation",
+        "title_short_nav": "Éducation",
+        "title_long_prefix": "C'est mon",
+        "title_long": "{{Contexte}} Éducatif"
+      },
+      "ko": {
+        "title_short": "교육",
+        "title_short_nav": "교육",
+        "title_long_prefix": "이것은 내",
+        "title_long": "{{교육적}} 배경"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleTimeline",
+      "locales": {},
+      "settings": {
+        "order_items_by": "dateStart",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/udg.jpg",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2023, "month": 1 },
+          "dateEnd": { "year": 2027, "month": 8 },
+          "locales": {
+            "en": {
+              "title": "Computer Engineering",
+              "province": "Jalisco",
+              "country": "Mexico",
+              "institution": "CUCEI - University of Guadalajara",
+              "text": "Pursuing a degree in Computer Engineering at CUCEI, with strong foundations in software development, algorithms, computer architecture, and systems design. Actively developing technical and analytical skills through practical coursework and independent projects.",
+              "list": [],
+              "tags": []
+            },
+            "es": {
+              "title": "Ingeniería en Computación",
+              "province": "Jalisco",
+              "country": "México",
+              "institution": "CUCEI - Universidad de Guadalajara",
+              "text": "Estudiante de Ingeniería en Computación en CUCEI, con bases sólidas en desarrollo de software, algoritmos, arquitectura de computadoras y diseño de sistemas. Desarrollo habilidades técnicas y analíticas mediante cursos prácticos y proyectos independientes.",
+              "list": [],
+              "tags": []
+            },
+            "fr": {
+              "title": "Génie Informatique",
+              "province": "Jalisco",
+              "country": "Mexique",
+              "institution": "CUCEI - Université de Guadalajara",
+              "text": "Étudiant en génie informatique à CUCEI, avec une solide formation en développement logiciel, algorithmes, architecture des ordinateurs et conception de systèmes. Développe activement ses compétences techniques et analytiques à travers des cours pratiques et des projets indépendants.",
+              "list": [],
+              "tags": []
+            },
+            "ko": {
+              "title": "컴퓨터 공학",
+              "province": "할리스코",
+              "country": "멕시코",
+              "institution": "CUCEI - 과달라하라 대학교",
+              "text": "CUCEI에서 컴퓨터 공학을 전공하고 있으며, 소프트웨어 개발, 알고리즘, 컴퓨터 아키텍처, 시스템 설계에 대한 탄탄한 기초를 가지고 있습니다. 실습 과제와 개인 프로젝트를 통해 기술적이고 분석적인 역량을 지속적으로 향상시키고 있습니다.",
+              "list": [],
+              "tags": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

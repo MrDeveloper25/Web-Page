@@ -1,0 +1,73 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Take a look at",
+        "title_long": "My {{Portfolio}}"
+      },
+      "es": {
+        "title_short": "Portafolio",
+        "title_short_nav": "Portafolio",
+        "title_long_prefix": "Explora",
+        "title_long": "Mi {{Portafolio}}"
+      },
+      "fr": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Découvrez",
+        "title_long": "Mon {{Portfolio}}"
+      },
+      "ko": {
+        "title_short": "포트폴리오",
+        "title_short_nav": "포트폴리오",
+        "title_long_prefix": "이것은 내",
+        "title_long": "{{포트폴리오}}입니다"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticlePortfolio",
+      "locales": {
+        "en": {
+          "category_all": "All",
+          "category_apps": "Apps",
+          "category_web": "Web",
+          "category_utilities": "Utilities"
+        },
+        "es": {
+          "category_all": "Todo",
+          "category_apps": "Apps",
+          "category_web": "Web",
+          "category_utilities": "Utilidades"
+        },
+        "fr": {
+          "category_all": "Tout",
+          "category_apps": "Apps",
+          "category_web": "Web",
+          "category_utilities": "Utilitaires"
+        },
+        "ko": {
+          "category_all": "모두",
+          "category_apps": "앱",
+          "category_web": "웹",
+          "category_utilities": "유틸리티"
+        }
+      },
+      "settings": {
+        "categorize_by": [
+          "category_apps",
+          "category_web",
+          "category_utilities"
+        ],
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": []
+    }
+  ]
+}
